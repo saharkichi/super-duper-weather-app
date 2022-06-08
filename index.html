@@ -1,0 +1,93 @@
+<!--collaborator linkg-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Weather Forecast</title>
+    
+</head>
+<body style="background-image:url(./assets/images/weather\ img.jpeg);
+            height: 60%;
+            background-size:cover;">
+      
+    <header>
+      <div class="blink"><h1> Weather Forecast</h1></div>
+    </header>  
+<!--search city button/bar and place to input desired location-->
+  <form id="searchbar">
+    <input id="ci" type="text" placeholder="Location of City"/>
+    <button id="submit" class="button" type="submitbutton"> Discover Weather in This City</button>
+  </form>
+<table id="CL"></table>
+
+<section>
+ <!--the required attributes for the acceptance critera/user-->
+      <div class="ccd">
+          <h2 id="city-name"> </h2>
+          <p id="city-cond"> </p>
+          <p id="temp"></p>
+          <p id="high"></p>
+           <p id="humidity"></p>
+          <p id="wind-speed"> </p>
+          <p id="uv-index"></p>
+      </div>
+      
+</section>
+<!--5 day future forecast as per requirements-->
+<section id="wdata" class="data">
+    <h2> Future Five Day Forecast</h2>
+<section class="grid">
+    <div class="bcard">
+      <div id="first">
+        <p id="date1"></p>
+        <div id="icon1"></div>
+        <p id="tone"></p>
+        <p id="hm1"></p>
+      </div>
+    </div>
+          <div class="grid">
+            <div id="second">
+              <p id="date2"></p>
+                <div id="icon2"></div>
+                  <p id="ttwo"></p>
+                    <p id="hm2"></p>
+            </div>
+          </div>
+                  <div class="grid">
+                    <div id="third">
+                      <p id="date3"></p>
+                        <div id="icon3"></div>
+                          <p id="tthree"></p>
+                            <p id="hm3"></p>
+                      </div>
+                    </div>
+                      <div class="grid">
+                        <div id="fourth">
+                          <p id="date4"></p>
+                            <div id="icon4"></div>
+                              <p id="tfour"></p>
+                                <p id="hm4"></p>
+                          </div>
+                        </div>
+                          <div class="grid">
+                            <div id="fifth">
+                              <p id="date5"></p>
+                                <div id="icon5"></div>
+                                  <p id="tfive"></p>
+                                    <p id="hm5"></p>
+                              </div>
+                            </div>
+</section> </section>
+   </main>
+    
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./assets/script.js"></script>
+</body>
+</html>

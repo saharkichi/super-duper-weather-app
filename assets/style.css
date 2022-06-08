@@ -1,0 +1,58 @@
+.blink {
+    animation: blinker 2s step-start infinite;
+    }
+    
+    @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+    }
+    
+h1 {
+    color:rgb(234, 0, 255);
+    text-shadow: #f00909;
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    padding-left: 60px;
+    padding-top:30px;
+    padding-bottom: 10px;
+    background-color: rgb(0, 149, 255);
+    color:rgb(255, 0, 230);
+    margin-right: 150px;
+}
+
+aside {
+    padding-left: 20px;
+}
+
+#wdata{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: none;
+}
+
+.ccd {
+    margin-left: 500px;
+}
+
+.grid {
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: row;
+    background-color: #ff009d;
+    background-size: 40px;
+    margin: 3px;
+    width: 100px;
+  }
+
+.classes {
+    margin-top: 50px;
+    margin-right: 100px;
+}
