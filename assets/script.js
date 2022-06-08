@@ -1,4 +1,3 @@
-$(document).ready(function () { 
 
 //linkg collaborator/worked together for javasciprt//
 
@@ -211,4 +210,3 @@ let icon5 = response.daily[5].weather[0].icon;
  submitbutton.addEventListener("click", runfiveday);
 
 
-});
