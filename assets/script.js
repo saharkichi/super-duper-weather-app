@@ -12,7 +12,7 @@ let fifth = moment().add(5, "days").format("LL");
 let city;
 let cities; 
 let wdata = document.getElementById("wdata")  
-let submitbutton = document.getElementById("submitbutton")
+let submitbutton = document.getElementById("submit")
 
 //criteria needs 5 days w section and search//
 
