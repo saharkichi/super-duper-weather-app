@@ -93,7 +93,7 @@ runfiveday = function(event) {
       let cityWind = response.wind.speed;
       let icon = response.weather[0].icon;
       $("#icon").html(
-        `<img src="http://openweathermap.org/img/wn/${icon}@2x.png">`
+        `<img src="https://openweathermap.org/img/wn/${icon}@2x.png">`
       );
       $("#city-name").html(cityName + " " + "(" + Today + ")");
       $("#city-cond").text("Current Conditions: " + cityCond);
@@ -169,19 +169,19 @@ let icon5 = response.daily[5].weather[0].icon;
         //images url from openweathermap
 
         $("#1").html(
-          `<img src="http://openweathermap.org/img/wn/${icon1}@2x.png">`
+          `<img src="https://openweathermap.org/img/wn/${icon1}@2x.png">`
         );
         $("#icon2").html(
-          `<img src="http://openweathermap.org/img/wn/${icon2}@2x.png">`
+          `<img src="https://openweathermap.org/img/wn/${icon2}@2x.png">`
         );
         $("#icon3").html(
-          `<img src="http://openweathermap.org/img/wn/${icon3}@2x.png">`
+          `<img src="https://openweathermap.org/img/wn/${icon3}@2x.png">`
         );
         $("#icon4").html(
-          `<img src="http://openweathermap.org/img/wn/${icon4}@2x.png">`
+          `<img src="https://openweathermap.org/img/wn/${icon4}@2x.png">`
         );
         $("#icon5").html(
-          `<img src="http://openweathermap.org/img/wn/${icon5}@2x.png">`
+          `<img src="https://openweathermap.org/img/wn/${icon5}@2x.png">`
         );
       });
     }
